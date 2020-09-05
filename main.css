@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: arial, sans-serif;
+    color: #666666;
+    font-size: 13px;
    
 }
 
@@ -14,6 +17,7 @@
 .principalmenu li{
     margin: 20px 10px 20px 5px;
     cursor: pointer;
+    
  
 }
 
@@ -21,7 +25,9 @@
     background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
 }
 
-
+.centered{
+    text-align: center
+}
 
 .searchcontainer{
     /*align-items: center;
@@ -30,18 +36,30 @@
     background-color: yellow;
 }
 .logo   {
-    text-align: center;
     margin-top: 9%;
-    margin-bottom: 30px;
+
 }
 
 .searchinput{
-    text-align: center;
+    margin-top: 35px;
+    
 }
 
+.button-container {
+    height: 70px;}
 .Calltoaction {
-    background-color: #F2F2F2;
+    background-color: #F4F4F4;
     border-radius: 4px;
+    border-style: none;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-top: 11px;
+    margin-right: 1px;
+    margin-left: 1px;
+    margin-bottom:11px;
+    height:36px;
+    font-size: 14px;
+    cursor: pointer;
 
 }
 footer{
@@ -57,7 +75,7 @@ footer{
 .footer-row{
     list-style: none;
     display: flex;
-    margin: 5px 10px 10px 5px;
+    margin: 5px 0px 0px 5px;
     width: 50%;
   
 }
@@ -67,6 +85,12 @@ footer ul .footer-row, .rigth{
     width: 50%;
 }
 .footer-row li {
-    margin:0px 10px ;
+    margin:0px 10px;
     cursor: pointer;
+    color: #5E5E5E;
+    font-size: 15px;
+    height: 40px;
+}
+.foot-note {
+    color: #222000;
 }
