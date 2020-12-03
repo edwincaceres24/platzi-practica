@@ -4,49 +4,62 @@
     font-family: arial, sans-serif;
     color: #666666;
     font-size: 13px;
-   
+
 }
 
 .principalmenu {
     display: flex;
     justify-content: flex-end;
     list-style: none;
- 
+    height: 29px;
+
 }
 
-.principalmenu li{
+.principalmenu li {
     margin: 20px 10px 20px 5px;
     cursor: pointer;
     
- 
+
+
 }
 
 .menubutton {
     background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
 }
 
-.centered{
+.loginbutton {
+    background-color: #4683ea;
+    color: #fff;
+    padding-right: 12px;
+    padding-left: 12px;
+    font-weight: bold; 
+}
+
+.centered {
     text-align: center
 }
 
-.searchcontainer{
+.searchcontainer {
     /*align-items: center;
     width: 100%;
     margin: 300px 25% 300px 25%;*/
     background-color: yellow;
 }
-.logo   {
+
+.logo {
     margin-top: 9%;
 
 }
 
-.searchinput{
+.searchinput {
     margin-top: 35px;
-    
+
 }
 
 .button-container {
-    height: 70px;}
+    height: 70px;
+}
+
 .Calltoaction {
     background-color: #F4F4F4;
     border-radius: 4px;
@@ -56,41 +69,48 @@
     margin-top: 11px;
     margin-right: 1px;
     margin-left: 1px;
-    margin-bottom:11px;
-    height:36px;
+    margin-bottom: 11px;
+    height: 36px;
     font-size: 14px;
     cursor: pointer;
 
 }
-footer{
+
+footer {
     background-color: #F2F2F2;
     bottom: 0;
     position: fixed;
     width: 100%;
 }
+
 .footer-container {
     display: flex;
     width: 100%;
 }
-.footer-row{
+
+.footer-row {
     list-style: none;
     display: flex;
     margin: 5px 0px 0px 5px;
     width: 50%;
-  
+
 }
-footer ul .footer-row, .rigth{
+
+footer ul .footer-row,
+.rigth {
     list-style: none;
     justify-content: flex-end;
     width: 50%;
 }
+
 .footer-row li {
-    margin:0px 10px;
+    margin: 0px 10px;
     cursor: pointer;
     color: #5E5E5E;
     font-size: 15px;
     height: 40px;
 }
+
 .foot-note {
     color: #222000;
 }
