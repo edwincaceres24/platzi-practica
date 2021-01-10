@@ -23,7 +23,40 @@ let nombre = 'Edwin',
             idiomas: ['Español','Inglés'],
             programación: ['HTML','CSS']
         },
+        presentacion () {console.log(`Hola, me llamo ${this.nombre}, tengo ${this.edad} y sé lo siguiente: ${this.conocimientos.programación}`)}
     }
+    nombres_objeto = [
+                {
+                    nombre: 'Edwin',
+                    apellido: 'Cáceres',
+                    edad: 28,
+                    conocimientos: {
+                        idiomas: ['Español', 'Inglés', 'Francés'],
+                        programación: ['HTML', 'CSS', 'Javascript', 'Python']
+                    }
+                },
+                {
+                    nombre: 'Miguel',
+                    apellido: 'Díaz',
+                    edad: 32,
+                    conocimientos: {
+                        idiomas: ['Español', 'Portugues'],
+                        programación: ['.NET', 'JAVA', 'C#']
+                    }
+                },
+                {
+                    nombre: 'Romina',
+                    apellido: 'Valcarcel',
+                    edad: 20,
+                    conocimientos: {
+                        idiomas: ['Español', 'Inglés'],
+                        programación: ['HTML', 'CSS']
+                    },
+                    presentacion() {console.log(`Hola, me llamo ${this.nombre}, tengo ${this.edad} y sé lo siguiente: ${this.conocimientos.programación}`)}  
+                }
+                ]
+
+                
 
     
 // let yourName;
@@ -85,6 +118,11 @@ function Persona(nombre, apellido){
         Persona.prototype.soyAlto= function(){
             this.altura >= 1.80 ? console.log(`Eres alto ${this.nombre}`) : console.log(`Eres chato ${this.nombre}`)
         }
+
+// Arrow function and This
+
+// Persona.prototype.soyAltoArrowFunction => { return this.altura > 1.8} 
+    // Las arrow function cambian el alcance de this a global
 
         //let Miguel = new Persona ('Miguel', 'Diaz') //'new' crea nuevos objetos dado un prototipo
         // let MiguelGlobal = Persona ('Miguel', 'Diaz') // Lo crea tomando el contexto de Windows para This
